@@ -1,5 +1,4 @@
 {
     "login": "romasan",
-    "token": "1c80d272ef5a8babc61fcc1537079c554b05f958",
     "githibAPIUri": "https://api.github.com/graphql"
 }

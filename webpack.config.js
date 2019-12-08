@@ -52,7 +52,10 @@ module.exports = {
         new webpack.HotModuleReplacementPlugin(),
         new MiniCssExtractPlugin({
             filename: 'bundle.css'
-        })
+        }),
+        new webpack.DefinePlugin({
+			githubToken: JSON.stringify(process.env.TOKEN),
+		}),
     ],
     devServer: {
       contentBase: './',
