@@ -4,7 +4,7 @@ import ReposList from "@containers/ReposList";
 import RepoPage from "@containers/RepoPage";
 
 const Routes = () => (
-    <Router>
+    <Router basename="/greact_challenge">
         <Route exact path="/" component={ReposList}/>
         <Route path="/repo/:id" component={RepoPage}/>
     </Router>
