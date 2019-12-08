@@ -1,0 +1,17 @@
+query($login: String!) {
+    repositoryOwner (login: $login) {
+        repositories(first: 100, orderBy: { field: UPDATED_AT, direction: DESC }) {
+            totalCount
+            nodes {
+                name
+                description
+                id
+                isPrivate
+            }
+            pageInfo {
+                endCursor
+                hasNextPage
+            }
+        }
+    }
+}

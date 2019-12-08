@@ -1,0 +1,27 @@
+.repo-commit {
+    display: block;
+    height: 40px;
+    img {
+        width: 20px;
+        height: 20px;
+        margin-right: 20px;
+    }
+    span {
+        line-height: 20px;
+    }
+    a {
+        color: #000000;
+        background: #e6e6e6;
+        border: 1px solid #d1d1d1;
+        border-radius: 3px;
+        padding: 3px;
+        float: right;
+        min-width: 72px;
+        text-align: center;
+        &:hover {
+            color: #ffffff;
+            background: #008cff;
+            border: 1px solid #0076d6;
+        }
+    }
+}

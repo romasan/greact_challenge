@@ -1,0 +1,31 @@
+query($id: ID!) {
+    node(id: $id) {
+        ... on Repository {
+            name
+            description
+            updatedAt
+            sshUrl
+            ref(qualifiedName: "master") {
+                target {
+                    ... on Commit {
+                        history(first: 10) {
+                            totalCount
+                            edges {
+                                node {
+                                    messageHeadline
+                                    oid
+                                    committedDate
+                                    pushedDate
+                                  	author {
+                                      name
+                                      avatarUrl
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

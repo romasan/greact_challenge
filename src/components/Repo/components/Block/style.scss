@@ -1,0 +1,19 @@
+.repo-block {
+    display: block;
+    margin-bottom: 10px;
+    &-title {
+        color: #8a8a8a;
+    }
+    &-content {
+        color: #000000;
+        h1 {
+            font-size: 14pt;
+        }
+        blockquote {
+            background: #e0dfdf;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #c0c0c0;
+        }
+    }
+}
