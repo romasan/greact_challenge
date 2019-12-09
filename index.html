@@ -5,8 +5,8 @@
         <meta charset="utf-8">
         <title>Projects</title>
         <script>
-            localStorage.githubToken = document.location.hash.slice(1);
             if (document.location.hash) {
+                localStorage.githubToken = document.location.hash.slice(1);
                 document.location.href = document.location.href.split('#').shift()
             }
         </script>
