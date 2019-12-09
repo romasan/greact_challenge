@@ -1,12 +1,12 @@
 # React + GraphQL
 
-Для работы при сборке необходимо указать githib access token
+Для работы при сборке необходимо указать github access token
 
 ```
 TOKEN=0123456789abcdef npm start
 ```
 
-Логин можно изменить в конфиге: `/src/config/index.js`
+Логин можно изменить в конфиге: `/src/config/index.json`
 
 ---
 
