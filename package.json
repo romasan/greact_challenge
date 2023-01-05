@@ -21,7 +21,7 @@
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.4",
-    "css-loader": "^1.0.0",
+    "css-loader": "^6.7.3",
     "mini-css-extract-plugin": "^0.4.3",
     "node-sass": "^8.0.0",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
@@ -30,7 +30,7 @@
     "uglifyjs-webpack-plugin": "^2.0.1",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.1.9"
+    "webpack-dev-server": "^3.11.3"
   },
   "dependencies": {
     "@apollo/react-hooks": "^3.1.3",
